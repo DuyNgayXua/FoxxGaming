@@ -7,7 +7,6 @@ function checkRegister(){
     var user = document.getElementById("useridRe").value;
     var password = document.getElementById("pwdRe").value;
     var passwordRetype = document.getElementById("confirmpassword").value;
-    console.log(checkBox)
     if (user == ""){
         alert("UserID required.");
         return false;
